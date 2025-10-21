@@ -1,0 +1,148 @@
+
+
+body{
+  margin: 0px;
+  background-color: #212428;
+  color: white;
+  font-family: sans-serif;
+
+}
+
+.container{
+  display: flex;
+  flex-flow: column;
+}
+
+header{
+  flex-flow: column;
+  background-color: beige;
+}
+
+nav {
+  justify-content: center;
+}
+
+a{
+  transition: background-color 500ms;
+}
+
+a:hover{
+  background-color: white;
+  border-radius: 15px;
+}
+
+nav ol{
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.menu_item {
+  width:200px;
+}
+
+.menu_item a {
+  display: block;
+  text-align: center;
+  padding: 30px 16px;
+  text-decoration: none;
+  color: black;
+}
+
+h1 {
+  text-align: center;
+  padding: 15px 0px;
+  color: black;
+  font-size: 40px;
+}
+
+section{
+  margin: 20px 0px;
+  gap: 20px;
+  justify-content: left;
+}
+
+.habilidades{
+  flex-flow: column;
+  align-items: center
+}
+
+h2 {
+  text-align: center;
+}
+
+ul{
+  list-style-type: none;
+  display: flex;
+  font-size: 18px;
+}
+
+li{
+  padding: 4px;
+}
+
+.projeto{
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+
+}
+
+.projeto div{
+  max-width: 70ch;
+  border-radius: 8px;
+  padding: 10px 10px 20px 10px;
+  box-shadow: -10px 10px 20px black;
+}
+
+.descricao-proj {
+  text-align: start;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+.link_projeto{
+  align-items: center;
+  text-decoration: none;
+  color: darkred;
+  padding: 15px 10px;
+  border-radius: 15px;
+}
+
+.link_projeto:hover{
+  background-color: antiquewhite;
+}
+
+#sobremim{
+  gap: 0px;
+  line-height: normal;
+  padding: 0px 250px;
+  margin: 40px;
+  font-size: 20px;
+}
+
+#sobremim p {
+  text-align: justify;
+
+}
+
+.formacao{
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.cursos{
+  display: flex;
+  flex-flow: column;
+  flex-direction: column;
+  box-shadow: -10px 10px 20px black;
+  width: 300px;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: left;
+}
+
+#confirmacao{
+  text-align: center;
+  font-size: 25px;
+}
